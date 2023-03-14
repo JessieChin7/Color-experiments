@@ -3,6 +3,7 @@
 * `plotLAB(output, draw_polygon=True, marker='o')`
     * input the model output results（LAB points，L = 50）
     * draw the polygon by `ConvexHull` in CIELAB 3D space
+    * using gradient lines
     * plot the points in CIELAB 3D space
     * change the marker in situation
 * `convert_colors(color_codes, to_lab=True)`
